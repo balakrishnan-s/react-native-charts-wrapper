@@ -1,23 +1,25 @@
 {
-  "name": "demo",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+  "name": "react-native-charts-wrapper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wuxudong/react-native-charts-wrapper.git"
   },
+  "version": "0.5.0",
+  "description": "A react-native charts support both android and ios.",
+  "author": "wuxudong",
+  "license": "MIT",
+  "nativePackage": true,
+  "homepage": "https://github.com/wuxudong/react-native-charts-wrapper",
+  "keywords": [
+    "react native",
+    "chart",
+    "android",
+    "MPAndroidChart",
+    "ios",
+    "Charts"
+  ],
   "dependencies": {
-    "react": "16.6.0-alpha.8af6728",
-    "react-native": "0.57.3",
-    "react-native-charts-wrapper": "^0.5.0"
-  },
-  "devDependencies": {
-    "babel-jest": "23.6.0",
-    "jest": "23.6.0",
-    "metro-react-native-babel-preset": "0.48.1",
-    "react-test-renderer": "16.6.0-alpha.8af6728"
-  },
-  "jest": {
-    "preset": "react-native"
+    "prop-types": "^15.5.10",
+    "react": "16.1.1"
   }
 }
